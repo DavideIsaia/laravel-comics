@@ -86,3 +86,47 @@ button {
     background: #0282f9;
   }
 }
+
+.comics {
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+
+  .container {
+    position: relative;
+  }
+
+  &__blue {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    text-align: center;
+    background-color: #0282f9;
+    padding: 0.8rem 2rem;
+    z-index: 2;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    display: inline-block;
+    background-color: #0282f9;
+    padding: 0.5rem 2.5rem;
+  }
+
+  .comics {
+    width: calc(100% / 6 - 12px);
+    background-color: #1c1c1c;
+    padding: 2rem 0.5rem;
+    cursor: pointer;
+  
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
