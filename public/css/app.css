@@ -27,6 +27,43 @@ header li.active a, header li:hover a {
   color: #0282f9;
 }
 
+.footer-top {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-top .link-list {
+  display: flex;
+}
+.footer-top .link-list__col {
+  margin-right: 3rem;
+}
+.footer-top li {
+  color: grey;
+}
+.footer-top li:hover {
+  color: #0282f9;
+  cursor: pointer;
+}
+.footer-top img {
+  width: 350px;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 150px;
+}
+.footer-bottom .social-links,
+.footer-bottom ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .social-links li,
+.footer-bottom ul li {
+  margin: 3rem 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +91,7 @@ img {
   margin-top: 2px;
   margin-bottom: -4px;
   width: 100%;
-  height: 600px;
+  height: 450px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
