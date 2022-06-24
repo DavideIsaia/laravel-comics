@@ -15,10 +15,10 @@
   <img class="jumbo" src="{{ asset('images/jumbotron.jpg') }}" alt="jumbo" />
 
   <main>
-
     @yield('main_content')
-
   </main>
+
+
 
   {{-- @include('partials.footer') --}}
 
