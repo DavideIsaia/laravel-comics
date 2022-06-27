@@ -11,6 +11,7 @@
     <div class="comics__list">
       @foreach ($data as $card)
         <div class="comics">
+          <a href="{{route('single-comic', $loop->index)}}">
           <img src="{{$card['thumb']}}" alt="" />
           <h5>{{ $card['type'] }}</h5>
           <h4>{{ $card['series'] }}</h4>

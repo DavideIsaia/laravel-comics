@@ -55,6 +55,11 @@ h2 {
   margin-right: 2rem;  
 }
 
+h3 {
+  text-transform: uppercase;
+  color: white;
+  padding: 1rem 0;
+}
 
 h5 {
   margin: 0.4rem auto;
@@ -91,12 +96,6 @@ button {
   text-align: center;
   padding: 1rem;
   
-  h3 {
-    text-transform: uppercase;
-    color: white;
-    padding: 1rem 0;
-  }
-
   h4 {
     text-transform: uppercase;
   }
@@ -188,7 +187,7 @@ button {
     }
     .thumb {
       position: absolute;
-      top: -360px;
+      top: -320px;
       left: 0;
       color: white;
       text-transform: uppercase;
@@ -208,9 +207,9 @@ button {
       }
     }
     .float {
-      float: left;
       &__left {
-        width: 55%;
+        float: left;
+        width: 70%;
         .available {
           display: flex;
           justify-content: space-between;
@@ -242,11 +241,14 @@ button {
         }
       }
       &__right {
-        width: 45%;
+        float: right;
+        width: 30%;
+        text-align: right;
+        margin: 2.5rem 0 5rem;
         div {
           color: #1c1c1c;
-          text-align: right;
           text-transform: uppercase;
+          margin-bottom: 0.5rem;
         }
       }
     }
@@ -262,6 +264,7 @@ button {
         margin-right: 4%;
       }
       h3 {
+        text-transform: capitalize;
         color: #003f5e;
         font-size: 1.5rem;
         line-height: 5rem;

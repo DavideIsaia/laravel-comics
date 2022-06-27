@@ -18,7 +18,8 @@ Route::get('/', function () {
     return view('home', compact("data"));
 })->name('homepage');
 
-Route::get('/single-comic', function() {
-    $data = config("comics");
-    return view('single-comic', compact("data"));
+Route::get('/single-comic/{id}', function($id) {
+    $data = config('comics');
+    $comic = $data[$id];
+    return view('single-comic', compact("comic"));
 })->name('single-comic');

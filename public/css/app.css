@@ -119,6 +119,12 @@ h2 {
   margin-right: 2rem;
 }
 
+h3 {
+  text-transform: uppercase;
+  color: white;
+  padding: 1rem 0;
+}
+
 h5 {
   margin: 0.4rem auto;
   color: #0282f9;
@@ -152,11 +158,6 @@ button:hover {
   color: white;
   text-align: center;
   padding: 1rem;
-}
-.comics h3 {
-  text-transform: uppercase;
-  color: white;
-  padding: 1rem 0;
 }
 .comics h4 {
   text-transform: uppercase;
@@ -237,7 +238,7 @@ button:hover {
 }
 .single-comic .container .thumb {
   position: absolute;
-  top: -360px;
+  top: -320px;
   left: 0;
   color: white;
   text-transform: uppercase;
@@ -256,11 +257,9 @@ button:hover {
   width: 100%;
   text-align: center;
 }
-.single-comic .container .float {
-  float: left;
-}
 .single-comic .container .float__left {
-  width: 55%;
+  float: left;
+  width: 70%;
 }
 .single-comic .container .float__left .available {
   display: flex;
@@ -292,12 +291,15 @@ button:hover {
   color: gray;
 }
 .single-comic .container .float__right {
-  width: 45%;
+  float: right;
+  width: 30%;
+  text-align: right;
+  margin: 2.5rem 0 5rem;
 }
 .single-comic .container .float__right div {
   color: #1c1c1c;
-  text-align: right;
   text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 .single-comic .details {
   background-color: #f6f6f6;
@@ -312,6 +314,7 @@ button:hover {
   margin-right: 4%;
 }
 .single-comic .details .col h3 {
+  text-transform: capitalize;
   color: #003f5e;
   font-size: 1.5rem;
   line-height: 5rem;
