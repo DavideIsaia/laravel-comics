@@ -9,7 +9,7 @@
   <div class="container">
     <h3 class="comics__blue">Currrent Series</h3>
     <div class="comics__list">
-      @foreach ($data as $card)
+      @foreach ($comics as $card)
         <div class="comics">
           <a href="{{route('single-comic', $loop->index)}}">
           <img src="{{$card['thumb']}}" alt="" />
