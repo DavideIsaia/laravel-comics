@@ -55,15 +55,6 @@ h2 {
   margin-right: 2rem;  
 }
 
-h3 {
-  text-transform: uppercase;
-  color: white;
-  padding: 1rem 0;
-}
-
-h4 {
-  text-transform: uppercase;
-}
 
 h5 {
   margin: 0.4rem auto;
@@ -99,6 +90,16 @@ button {
   color: white;
   text-align: center;
   padding: 1rem;
+  
+  h3 {
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem 0;
+  }
+
+  h4 {
+    text-transform: uppercase;
+  }
 
   .container {
     position: relative;
@@ -241,12 +242,48 @@ button {
         }
       }
       &__right {
-        float: right;
-        width: 30%;
+        width: 45%;
         div {
           color: #1c1c1c;
           text-align: right;
           text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .details {
+    background-color: #f6f6f6;
+    border-top: 2px solid gainsboro;
+    padding-bottom: 10rem;
+    .col {
+      float: left;
+      width: 48%;
+      &.talent {
+        margin-right: 4%;
+      }
+      h3 {
+        color: #003f5e;
+        font-size: 1.5rem;
+        line-height: 5rem;
+        border-bottom: 2px solid gainsboro;
+      }
+      .row {
+        padding: 1rem 0;
+        border-bottom: 2px solid gainsboro;
+        &::after {
+          display: table;
+          content: "";
+         clear: both;
+        }
+        h4 {
+          color: #003f5e;
+          float: left;
+          width: 35%;
+        }
+        p {
+          color: #00a9d9;
+          float: left;
+          width: 65%;
         }
       }
     }

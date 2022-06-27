@@ -31,5 +31,62 @@
       <img src="{{ asset('images/adv.jpg') }}" alt=""/>
     </div>  
   </div>
+  <div class="details">
+    <div class="container">
+      <div class="col talent">
+        <h3>Talent</h3> 
+        <div class="row">
+          <h4>Art by:</h4>
+          <p>
+            "José Luis García-López",
+            "Clay Mann",
+            "Rafael Albuquerque",
+            "Patrick Gleason",
+            "Dan Jurgens",
+            "Joe Shuster",
+            "Neal Adams",
+            "Curt Swan",
+            "John Cassaday",
+            "Olivier Coipel",
+            "Jim Lee"
+          </p>        
+        </div>
+        <div class="row">
+          <h4>Written by:</h4>
+          <p>
+            "Brad Meltzer",
+            "Tom King",
+            "Scott Snyder",
+            "Geoff Johns",
+            "Brian Michael Bendis",
+            "Paul Dini",
+            "Louise Simonson",
+            "Richard Donner",
+            "Marv Wolfman",
+            "Peter J. Tomasi",
+            "Dan Jurgens",
+            "Jerry Siegel",
+            "Paul Levitz"
+          </p>        
+        </div>         
+      </div>
+      <div class="col">
+        <h3>Specs</h3>
+        <div class="row">
+          <h4>Series:</h4>
+          <p>ACTION COMICS</p>
+        </div>
+        <div class="row">
+          <h4>U.S. Price:</h4>
+          <p>$19.99</p>
+        </div>
+        <div class="row">
+          <h4>On Sale Date:</h4>
+          <p>Oct 02 2018</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 @endsection
