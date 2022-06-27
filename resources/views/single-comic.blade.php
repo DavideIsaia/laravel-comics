@@ -59,7 +59,7 @@
         </div>
         <div class="row">
           <h4>On Sale Date:</h4>
-          <p>{{$comic['sale_date']}}</p>
+          <p>{{\Carbon\Carbon::parse($comic['sale_date'])->format('M d Y')}}</p>
         </div>
       </div>
 
