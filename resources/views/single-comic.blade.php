@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-  Single Comic
+{{$comic['title']}}
 @endsection
 
 @section('main_content')
