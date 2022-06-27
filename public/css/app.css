@@ -107,6 +107,12 @@ a {
   color: inherit;
 }
 
+h1 {
+  color: #003f5e;
+  text-transform: uppercase;
+  margin: 3rem 0 1rem;
+}
+
 h2 {
   color: #0282f9;
   text-transform: uppercase;
@@ -214,4 +220,85 @@ button:hover {
 }
 .blue-banner span {
   font-size: 0.8rem;
+}
+
+.single-comic .blue-line {
+  background-color: #0282f9;
+  height: 50px;
+}
+.single-comic .container {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.single-comic .container::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.single-comic .container .thumb {
+  position: absolute;
+  top: -360px;
+  left: 0;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+}
+.single-comic .container .thumb__details {
+  position: absolute;
+  background-color: #00a9d9;
+  left: 0;
+}
+.single-comic .container .thumb .type {
+  top: 0;
+}
+.single-comic .container .thumb .gallery {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.single-comic .container .float {
+  float: left;
+}
+.single-comic .container .float__left {
+  width: 55%;
+}
+.single-comic .container .float__left .available {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55ba59;
+  border-bottom: 2px solid #377b3b;
+  line-height: 3rem;
+}
+.single-comic .container .float__left .available__left {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #b6fa96;
+  padding: 0 1rem;
+}
+.single-comic .container .float__left .available__left span {
+  color: white;
+}
+.single-comic .container .float__left .available__right {
+  padding: 0 1rem;
+  color: white;
+  border-left: 2px solid #377b3b;
+  text-align: center;
+}
+.single-comic .container .float__left .description {
+  line-height: 1.5rem;
+  color: gray;
+}
+.single-comic .container .float__right {
+  float: right;
+  width: 30%;
+}
+.single-comic .container .float__right div {
+  color: #1c1c1c;
+  text-align: right;
+  text-transform: uppercase;
 }
